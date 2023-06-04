@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flower Identification</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+  <h1>Flower Identification</h1>
+  
+  <div id="gallery"></div>
+
+
+  <div id="image-upload">
+    <input type="file" id="fileUpload">
+  </div>
+
+  
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-sm-4 co-12">
+        <div id="container">
+
+          <!-- A div with card class for the card  -->
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1536323760109-ca8c07450053" alt="Lago di Braies">
+      
+            <!-- A div with card__details class to hold the details in the card  -->
+            <div class="card__details">
+      
+              <!-- Span with tag class for the tag -->
+              <span class="tag">Nature</span>
+      
+              <span class="tag">Lake</span>
+      
+              <!-- A div with name class for the name of the card -->
+              <div class="name">Lago di Braies</div>
+      
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam
+                pharetra
+                vitae ipsum odio.</p>
+      
+              <button>Read more</button>
+            </div>
+      
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./plantAPI.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
