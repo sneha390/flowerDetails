@@ -1,13 +1,8 @@
-# Flowers for Sita
+Introducing Flower Identification: Your go-to web app for identifying and learning about different flowers! With just a few clicks, you can upload an image of any flower and uncover its name and essential information, such as its scientific name, family, genus, and more.
 
-Sita loves flowers. She likes visiting gardens with her friends.
+Our tech stack is built upon HTML, CSS, and JavaScript, ensuring a seamless and interactive user experience. 
 
-One such day she visited the famous **Garden of Vishwakerma** with her friends. The garden had flowers from all around the world. Sita could only recognise a few of them. She wanted to know the names of all the flowers in the garden and also wanted to know more about them.
-
-She asked her friends to help her. But they were also not sure about the names of all the flowers. They decided to take pictures of all the flowers and then use a web app to identify the flowers.
-
-Create a webapp that can identify the flowers in the pictures taken by Sita and her friends. You can have a flowers gallery and showcase all flowers with pictures and more information about the flower. You are open to use and stack. Be creative and make the app as beautiful as possible.
-
-Extra points for using a third party API to identify the flowers.
+Aproach:
+I used the plant.id API to create this web app. I generated an Api Key from the official page of plant.id. After generating the key. I used that in script.js file to fetch the data after getting image file as input. This Api is specially used for fetching the informations of the plants. I had to do some research before doing this , tried some other API as well but those did not work out.
 
 
